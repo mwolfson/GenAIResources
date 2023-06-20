@@ -4,9 +4,14 @@
   - [Prompt Engineering](#prompt-engineering)
     - [OpenAI - Video Course about Prompt Engineering basics from OpenAI](#openai---video-course-about-prompt-engineering-basics-from-openai)
     - [Learn Prompting - text based learning resources](#learn-prompting---text-based-learning-resources)
+  - [Chat](#chat)
+    - [Auto-GPT](#auto-gpt)
   - [Text To Image Tools](#text-to-image-tools)
     - [Midjourney](#midjourney)
+    - [Stable Diffusion](#stable-diffusion)
+    - [Firefly](#firefly)
   - [Resources](#resources)
+    - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
     - [Make Use Of](#make-use-of)
 
 This is a collection of resources for working with Generative AI technologies.
@@ -31,12 +36,36 @@ Your Guide to Communicating with Artificial Intelligence
 Learn how to use ChatGPT and other AI tools to accomplish your goals using our free and open source curriculum, designed for all skill levels!
 ```
 
+## Chat 
+
+### Auto-GPT
+
+[https://news.agpt.co/](https://news.agpt.co/)
+
+```text
+The official website for Auto-GPT. Explore the new frontier of autonomous AI and try the fastest growing open source project in the history of GitHub for yourself.
+```
 
 ## Text To Image Tools
 
 ### Midjourney 
 
+### Stable Diffusion
+
+### Firefly
+
 ## Resources
+
+### Steps to Install Open AI Tools using Jupyter Labs
+
+1. Install Python (and PIP)
+1. Use PIP to install following pakages
+   1. `pip install openai`
+   1. `pip install jupyterlab`
+   1. `pip install python-dotenv`
+1. Get API Key and setup in Environment variables
+   1. export OPENAI_API_KEY="sk-dq...X"
+1. Run `jupyter-lab`
 
 ### Make Use Of
 
