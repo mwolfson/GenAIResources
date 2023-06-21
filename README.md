@@ -4,6 +4,10 @@
   - [Prompt Engineering](#prompt-engineering)
     - [OpenAI - Video Course about Prompt Engineering basics from OpenAI](#openai---video-course-about-prompt-engineering-basics-from-openai)
     - [Learn Prompting - text based learning resources](#learn-prompting---text-based-learning-resources)
+    - [Sample Prompts](#sample-prompts)
+      - [Starter templates](#starter-templates)
+      - [Text to Image](#text-to-image)
+      - [Misc](#misc)
   - [Chat](#chat)
     - [Auto-GPT](#auto-gpt)
   - [Text To Image Tools](#text-to-image-tools)
@@ -36,6 +40,25 @@ Your Guide to Communicating with Artificial Intelligence
 Learn how to use ChatGPT and other AI tools to accomplish your goals using our free and open source curriculum, designed for all skill levels!
 ```
 
+### Sample Prompts
+
+#### Starter templates
+
+- Generate a script for a 30-second commercial promoting <subject>
+- Create a list of potential blog post ideas about <subject>
+- Generate a list of ideas for businesses about <subject>
+- Create a [JavaScript] program to create a responsive web page layout using CSS and HTML that displays <composition>
+- Write a [Python] function to generate a random password requiring only numbers and letters
+- Write a poem about suffering and pain, using metaphors and imagery to evoke strong emotion
+- I want you to act as a travel guide. I will write you my destination and you will suggest a location to visit near my  destination. In also give you the type of locations I want you to suggest. You will also suggest me places of similar type that are close to my first destination. My first request is “I am in Kyoto and I want to visit only museums.”
+- I want you to act as a personal cook and create a healthy meal plan for the week
+
+#### Text to Image
+
+#### Misc
+
+
+
 ## Chat 
 
 ### Auto-GPT
@@ -58,7 +81,7 @@ The official website for Auto-GPT. Explore the new frontier of autonomous AI and
 
 ### Steps to Install Open AI Tools using Jupyter Labs
 
-1. Install Python (and PIP)
+1. Install Python3 (and PIP)
 1. Use PIP to install following pakages
    1. `pip install openai`
    1. `pip install jupyterlab`
