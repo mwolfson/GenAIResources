@@ -83,9 +83,33 @@ The official website for Auto-GPT. Explore the new frontier of autonomous AI and
 
 ### Midjourney 
 
+[https://www.midjourney.com/app/](https://www.midjourney.com/app/)
+
+```text
+Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.
+```
+
+Requires monthy subscription and dischord account.
+
 ### Stable Diffusion
 
+[https://stablediffusionweb.com/](https://stablediffusionweb.com/)
+
+```text
+Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, cultivates autonomous freedom to produce incredible imagery, empowers billions of people to create stunning art within seconds.
+```
+
+Free to try a prompt right on the webpage.
+
 ### Firefly
+
+[https://firefly.adobe.com/](https://firefly.adobe.com/)
+
+```text
+Firefly is Adobe’s new generative AI service. As part of Creative Cloud, Firefly offers new ways to bring your ideas to life while improving creative workflows.
+```
+
+Requires Adobe Creative Cloud subscription, and signup for beta access.
 
 ## Resources
 
