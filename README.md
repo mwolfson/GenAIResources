@@ -121,9 +121,11 @@ Requires Adobe Creative Cloud subscription, and signup for beta access.
    1. `pip install openai`
    1. `pip install jupyterlab`
    1. `pip install python-dotenv`
-1. Get API Key and setup in Environment variables
+   1. `pip install panel`
+   1. `pip install notebook==6.5.4`
+2. Get API Key and setup an Environment variables
    1. export OPENAI_API_KEY="sk-dq...X"
-1. Run `jupyter-lab`
+3. Run `jupyter-lab`
 
 #### Steps to first API call
 
