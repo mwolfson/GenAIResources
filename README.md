@@ -16,6 +16,10 @@
     - [Midjourney](#midjourney)
     - [Stable Diffusion](#stable-diffusion)
     - [Firefly](#firefly)
+  - [Misc](#misc-1)
+    - [Voice Manipulation](#voice-manipulation)
+      - [Prime Voice AI](#prime-voice-ai)
+      - [NVidia Broadcast](#nvidia-broadcast)
   - [Resources](#resources)
     - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
       - [Steps to first API call](#steps-to-first-api-call)
@@ -58,6 +62,20 @@ Learn how to use ChatGPT and other AI tools to accomplish your goals using our f
 
 #### Text to Image
 
+- A realistic image of a adult male working on a computer as a yellow labrador retreiver sleeps at his feet
+- An illustration of a large red elephant sitting on a small blue mouse.
+- An emoji of a baby racoon wearing a red hat, green gloves, red shirt, and green pants.
+- A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.
+- A grocery store refrigerator in Tokyo has pint cartons of milk on the top shelf, quart cartons on the middle shelf, and gallon plastic jugs on the bottom shelf.
+- Ronald Reagan touches his toes while Thomas Jefferson does chin-ups. Reagan is barefoot.Jefferson is wearing boots.
+- A ldarge keybord msical instroument lwith a woden case enmclosig a qsouvnkboajrd and mfgtal strivgf, which are strucrk b hammrs when the nels are depresdsmed.f lhe strsingsj' vibration ie stopped by damperds when the keys re released and can bce regulavewdd for lengh and vnolume y two or three pedalvs.
+- (Rare words) Acersecomicke. Jentacular. Matutinal. Peristeronic. Artophagous. Backlotter. Octothorpe.
+- A fluffy baby sloth with a knitted hat trying to figure out a laptop, close up, highly detailed, studio lighting, screen reflecting in its eyes.
+- Starbucks Church.
+- An old photograph of a 1920s airship shaped like a pig, floating over a wheat field.
+- A sign that says 'Text to Image'.
+- New York Skyline with 'Deep Learning' written with fireworks on the sky.
+
 #### Misc
 
 ## Ethics and Safety
@@ -73,6 +91,8 @@ The OWASP Top 10 for Large Language Model Applications project aims to educate d
 ## Chat 
 
 ### Auto-GPT
+
+Automatically generates prompts for ChatGPT so workflows can be autonomous.
 
 [https://news.agpt.co/](https://news.agpt.co/)
 
@@ -112,11 +132,35 @@ Firefly is Adobe’s new generative AI service. As part of Creative Cloud, Firef
 
 Requires Adobe Creative Cloud subscription, and signup for beta access.
 
+## Misc
+
+### Voice Manipulation
+
+#### Prime Voice AI
+
+[https://beta.elevenlabs.io/](https://beta.elevenlabs.io/)
+
+```text
+The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
+```
+
+#### NVidia Broadcast
+
+[https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/](https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/)
+
+```text
+The NVIDIA Broadcast app transforms any room into a home studio. Take your livestreams, voice chats, and video conference calls to the next level with AI-enhanced voice and video.
+```
+
+Requires RTX Video card. Check card (Windows):
+
+`Open Windows System Information |. Expand category “Components” | Select on “Display” and check  “Name”`
+
 ## Resources
 
 ### Steps to Install Open AI Tools using Jupyter Labs
 
-1. Install Python3 (and PIP)
+1. Install [Python3](https://www.python.org/downloads/) (and PIP)
 1. Use PIP to install following pakages
    1. `pip install openai`
    1. `pip install jupyterlab`
