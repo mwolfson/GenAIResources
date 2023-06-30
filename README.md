@@ -17,9 +17,8 @@
     - [Stable Diffusion](#stable-diffusion)
     - [Firefly](#firefly)
   - [Misc](#misc-1)
-    - [Voice Manipulation](#voice-manipulation)
-      - [Prime Voice AI](#prime-voice-ai)
-      - [NVidia Broadcast](#nvidia-broadcast)
+    - [Prime Voice AI](#prime-voice-ai)
+    - [NVidia Broadcast](#nvidia-broadcast)
   - [Resources](#resources)
     - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
       - [Steps to first API call](#steps-to-first-api-call)
@@ -134,9 +133,7 @@ Requires Adobe Creative Cloud subscription, and signup for beta access.
 
 ## Misc
 
-### Voice Manipulation
-
-#### Prime Voice AI
+### Prime Voice AI
 
 [https://beta.elevenlabs.io/](https://beta.elevenlabs.io/)
 
@@ -144,7 +141,7 @@ Requires Adobe Creative Cloud subscription, and signup for beta access.
 The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
 ```
 
-#### NVidia Broadcast
+### NVidia Broadcast
 
 [https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/](https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/)
 
