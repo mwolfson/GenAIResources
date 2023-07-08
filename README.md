@@ -9,11 +9,15 @@
       - [Text to Image](#text-to-image)
       - [Misc](#misc)
   - [Ethics and Safety](#ethics-and-safety)
-    - [](#)
+    - [All Tech Is Human](#all-tech-is-human)
+    - [OWASP](#owasp)
+  - [Licenses](#licenses)
+    - [Midjourney](#midjourney)
+    - [ChatGPT](#chatgpt)
   - [Chat](#chat)
     - [Auto-GPT](#auto-gpt)
   - [Text To Image Tools](#text-to-image-tools)
-    - [Midjourney](#midjourney)
+    - [Midjourney](#midjourney-1)
     - [Stable Diffusion](#stable-diffusion)
     - [Firefly](#firefly)
   - [Misc](#misc-1)
@@ -79,13 +83,36 @@ Learn how to use ChatGPT and other AI tools to accomplish your goals using our f
 
 ## Ethics and Safety
 
-### 
+### All Tech Is Human
+
+[https://alltechishuman.org/](https://alltechishuman.org/)
+
+```text
+All Tech Is Human brings together people, organizations, and ideas to tackle wicked tech & society issues and co-create a tech future aligned with the public interest.
+```
+
+### OWASP
 
 [https://owasp.org/www-project-top-10-for-large-language-model-applications/](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 ```text
 The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications. Examples of vulnerabilities include prompt injections, data leakage, inadequate sandboxing, and unauthorized code execution, among others. The goal is to raise awareness of these vulnerabilities, suggest remediation strategies, and ultimately improve the security posture of LLM applications.
 ```
+
+## Licenses
+
+### Midjourney
+
+ You own the image as a file, but you do not own any copyright of the image, and you cannot, by law, copyright it.
+
+[https://docs.midjourney.com/docs/terms-of-service](https://docs.midjourney.com/docs/terms-of-service)
+
+```text
+Subject to the above license, You own all Assets You create with the Services, provided they were created in accordance with this Agreement. This excludes upscaling the images of others, which images remain owned by the original Asset creators. Midjourney makes no representations or warranties with respect to the current law that might apply to You. Please consult Your own lawyer if You want more information about the state of current law in Your jurisdiction. Your ownership of the Assets you created persists even if in subsequent months You downgrade or cancel Your membership. However, You do not own the Assets if You fall under the exceptions below.
+```
+
+### ChatGPT
+
 
 ## Chat 
 
