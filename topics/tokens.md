@@ -52,7 +52,7 @@ print(tokenized_prompt)
 
 This will break this sentence down into the following tokens.
 
-![tokenizer1](..%5Cassets%5Ctokenizer1.png)
+![tokenizer1](../assets/tokenizer1.png)
 
 Then the text snippets can be converted to TokenIDs that correspond to an ID in the model's vocabulary.
 
@@ -70,7 +70,7 @@ Output:
 
 These tokens are then converted to the following Vocabulary tokens corresponding to ChatGPT3.5.
 
-![tokenizer2](..%5Cassets%5Ctokenizer2.png)
+![tokenizer2](../assets/tokenizer2.png)
 
 ### Token Visualizer
 
@@ -94,7 +94,7 @@ This is important when dealing with limited token budgets (when using LLMs that 
 | ------------------------------ | ----------- |
 | T5                             | 512         |
 | Open Assistant (Pythia family) | 2048        |
-| Dolly                          | 2048        |
+| Bard                           | 8196        |
 | GPT-J-6B                       | 2048        |
 | GPT-NeoX-20B                   | 2048        |
 | ChatGPT (GPT-3.5-Turbo)        | 4096        |
