@@ -82,7 +82,7 @@ Breaking text into tokens makes it more computationally efficient to handle and 
 
 ### Maximum Token limit
 
-LLMs have a limit to the amount of tokens allowed in each prompt.
+LLMs have a limit to the amount of tokens allowed in each prompt. This is to restrict the number of tokens processed in a single interaction, which ensures efficient performance. 
 
 Tokens might have different sizes depending on the vocabulary of the model. Certain characters of symbols might be treated as seperated tokens, and adding tokens representing beginning or ending of text can impact the count. Whitespace is not ignored, and will increase the count.
 
@@ -90,17 +90,16 @@ This is important when dealing with limited token budgets (when using LLMs that 
 
 #### Token Limits of Popular LLMs
 
-| Language Model                 | Token Limit |
-| ------------------------------ | ----------- |
-| T5                             | 512         |
-| Open Assistant (Pythia family) | 2048        |
-| Bard                           | 8196        |
-| GPT-J-6B                       | 2048        |
-| GPT-NeoX-20B                   | 2048        |
-| ChatGPT (GPT-3.5-Turbo)        | 4096        |
-| StableLM-Alpha                 | 4096        |
-| OpenLLaMA                      | 2048        |
-| GPT4                           | 32K         |
-| MPT-7B                         | 84k         |
-| Claude                         | 100k        |
+| Language Model          | Token Limit |
+| ----------------------- | ----------- |
+| Bard                    | 8196        |
+| ChatGPT (GPT-3.5-Turbo) | 4096        |
+| ChatGPT (GPT-4)         | 8192        |
+| ChatGPT (GPT-4-32k)     | 32,768      |
+| Llama                   | 2048/4096   |
+| StableLM-Alpha          | 4096        |
+| T5                      | 512         |
+| OpenLLaMA               | 2048        |
+| MPT-7B                  | 84k         |
+| Claude                  | 100k        |
 
