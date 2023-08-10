@@ -11,7 +11,7 @@
   - [Why is Tokenization needed?](#why-is-tokenization-needed)
     - [Maximum Token limit](#maximum-token-limit)
       - [Token Limits of Popular LLMs](#token-limits-of-popular-llms)
-      - [API Charges Per Token](#api-charges-per-token)
+    - [API Charges Per Token](#api-charges-per-token)
 
 # Tokens
 
@@ -163,7 +163,7 @@ LLMs have a limit to the amount of tokens allowed in each prompt. This is to res
 
 Tokens might have different sizes depending on the vocabulary of the model. Certain characters of symbols might be treated as seperated tokens, and adding tokens representing beginning or ending of text can impact the count. Whitespace is not ignored, and will increase the count.
 
-This is important when dealing with limited token budgets (when using LLMs that calculate usage based on token usage. When text needs to be truncated or shortened, important context might be lost.
+This is important when dealing with limited token budgets (when using LLMs that calculate usage based on token usage). When text needs to be truncated or shortened, important context might be lost.
 
 #### Token Limits of Popular LLMs
 
@@ -180,7 +180,7 @@ This is important when dealing with limited token budgets (when using LLMs that 
 | MPT-7B                  | 84k         |
 | Claude                  | 100k        |
 
-#### API Charges Per Token 
+### API Charges Per Token 
 
 Many LLM Products (including OpenAI) charge per token, for API Access. There is a cost for both input and output values. This can result in very expensive usage charges if token size is not limited.
 
