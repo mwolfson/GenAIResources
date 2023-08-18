@@ -249,3 +249,7 @@ print(response)
 ```text
 Learn the latest about ChatGPT and what you can do with this powerful AI chatbot.
 ```
+
+## TODO 
+https://huggingface.co/spaces/umm-maybe/AI-image-detector
+https://gptzero.me/
