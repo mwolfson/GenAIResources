@@ -5,6 +5,7 @@
     - [OpenAI - Video Course about Prompt Engineering basics from OpenAI](#openai---video-course-about-prompt-engineering-basics-from-openai)
     - [Learn Prompting - text based learning resources](#learn-prompting---text-based-learning-resources)
   - [Large Language Model (LLM) Concepts](#large-language-model-llm-concepts)
+    - [Introduction To Generative AI Learning Path](#introduction-to-generative-ai-learning-path)
     - [LangChain for LLM Application Development](#langchain-for-llm-application-development)
   - [Sample Prompts](#sample-prompts)
     - [Starter templates](#starter-templates)
@@ -14,6 +15,7 @@
     - [All Tech Is Human](#all-tech-is-human)
     - [OWASP](#owasp)
     - [Frontier Model Forum](#frontier-model-forum)
+    - [AI Detecting tools](#ai-detecting-tools)
   - [Licenses](#licenses)
     - [Midjourney](#midjourney)
     - [ChatGPT](#chatgpt)
@@ -57,6 +59,16 @@ Learn how to use ChatGPT and other AI tools to accomplish your goals using our f
 ```
 
 ## Large Language Model (LLM) Concepts
+
+### Introduction To Generative AI Learning Path
+
+[https://www.cloudskillsboost.google/journeys/118](https://www.cloudskillsboost.google/journeys/118)
+
+From Google Cloud:
+
+```text
+This learning path provides an overview of generative AI concepts, from the fundamentals of large language models to responsible AI principles.
+```
 
 ### LangChain for LLM Application Development
 
@@ -128,6 +140,14 @@ The OWASP Top 10 for Large Language Model Applications project aims to educate d
 ```text
 We’re forming a new industry body to promote the safe and responsible development of frontier AI systems: advancing AI safety research, identifying best practices and standards, and facilitating information sharing among policymakers and industry
 ```
+
+### AI Detecting tools
+
+Important note: *these tools generally don't work very well, and can't be relied on.*
+ 
+To detect if an image was created by AI: [https://huggingface.co/spaces/umm-maybe/AI-image-detector](https://huggingface.co/spaces/umm-maybe/AI-image-detector)
+
+To detect if text was written by AI: [https://gptzero.me/](https://gptzero.me/)
 
 ## Licenses
 
@@ -229,9 +249,9 @@ The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings 
 
 ### Customize ChatGPT with unique style guide
 
-Setup ChatGPT to respond in a way that matches your writing style/voice. [Zapier Style Guide Tutorial](https://zapier.com/blog/style-guide)
+Setup ChatGPT to respond in a way that matches your writing style/voice.
 
-First: write your brand’s style guide (use this guide: [Zapier Style Guide Tutorial](https://zapier.com/blog/style-guide)).
+First: write your brand’s style guide (use the: [Zapier Style Guide ](https://zapier.com/blog/style-guide) tutorial).
 
 Must haves:
 * Company’s values and missions.
@@ -319,7 +339,3 @@ print(response)
 ```text
 Learn the latest about ChatGPT and what you can do with this powerful AI chatbot.
 ```
-
-## TODO 
-https://huggingface.co/spaces/umm-maybe/AI-image-detector
-https://gptzero.me/
