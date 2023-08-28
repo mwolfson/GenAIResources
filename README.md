@@ -11,6 +11,8 @@
     - [Starter templates](#starter-templates)
     - [Text to Image](#text-to-image)
     - [Misc](#misc)
+      - [Get better responses from chatGPT](#get-better-responses-from-chatgpt)
+      - [Customize ChatGPT with unique style guide](#customize-chatgpt-with-unique-style-guide)
   - [Ethics and Safety](#ethics-and-safety)
     - [All Tech Is Human](#all-tech-is-human)
     - [OWASP](#owasp)
@@ -30,7 +32,6 @@
     - [HT2.0](#ht20)
     - [NVidia Broadcast](#nvidia-broadcast)
     - [Prime Voice AI](#prime-voice-ai)
-    - [Customize ChatGPT with unique style guide](#customize-chatgpt-with-unique-style-guide)
   - [Resources](#resources)
     - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
       - [Steps to first API call](#steps-to-first-api-call)
@@ -112,8 +113,34 @@ had built this short course in collaboration with DeepLearning.ai to teach how t
 
 ### Misc
 
+#### Get better responses from chatGPT
+
 The next time ChatGPT serves up a less-than-stellar answer, provide some feedback and then toss in this prompt:
 > "Explain this feedback back to me and how you will adjust future responses given the feedback."
+
+
+#### Customize ChatGPT with unique style guide
+
+Setup ChatGPT to respond in a way that matches your writing style/voice.
+
+First: write your brand’s style guide (use the: [Zapier Style Guide ](https://zapier.com/blog/style-guide) tutorial).
+
+Must haves:
+* Company’s values and missions.
+* Brand’s voice and tone.
+* Who you're speaking to.
+* Must-follow grammar rules.
+* 10+ examples of great content (for each content category).
+
+Second: upload your style guide to ChatGPT custom instructions:
+
+1. Go to ChatGPT,
+1. Custom instructions
+   * Answer box #1 with everything brand-related
+   * Answer box #2 with everything writing-related.
+1. Toggle on “Enable for new chats”.
+1. Save it all up.
+1. You can now instruct ChatGPT to write something fresh or feed it a content draft to finesse in your voice.
 
 ## Ethics and Safety
 
@@ -246,29 +273,6 @@ Requires RTX Video card. Check card (Windows):
 ```text
 The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
 ```
-
-### Customize ChatGPT with unique style guide
-
-Setup ChatGPT to respond in a way that matches your writing style/voice.
-
-First: write your brand’s style guide (use the: [Zapier Style Guide ](https://zapier.com/blog/style-guide) tutorial).
-
-Must haves:
-* Company’s values and missions.
-* Brand’s voice and tone.
-* Who you're speaking to.
-* Must-follow grammar rules.
-* 10+ examples of great content (for each content category).
-
-Second: upload your style guide to ChatGPT custom instructions:
-
-1. Go to ChatGPT,
-1. Custom instructions
-   * Answer box #1 with everything brand-related
-   * Answer box #2 with everything writing-related.
-1. Toggle on “Enable for new chats”.
-1. Save it all up.
-1. You can now instruct ChatGPT to write something fresh or feed it a content draft to finesse in your voice.
 
 ## Resources
 
