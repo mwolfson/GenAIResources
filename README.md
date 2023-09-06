@@ -4,25 +4,34 @@
   - [Prompt Engineering](#prompt-engineering)
     - [OpenAI - Video Course about Prompt Engineering basics from OpenAI](#openai---video-course-about-prompt-engineering-basics-from-openai)
     - [Learn Prompting - text based learning resources](#learn-prompting---text-based-learning-resources)
-    - [Sample Prompts](#sample-prompts)
-      - [Starter templates](#starter-templates)
-      - [Text to Image](#text-to-image)
-      - [Misc](#misc)
+  - [Large Language Model (LLM) Concepts](#large-language-model-llm-concepts)
+    - [Introduction To Generative AI Learning Path](#introduction-to-generative-ai-learning-path)
+    - [LangChain for LLM Application Development](#langchain-for-llm-application-development)
+  - [Sample Prompts](#sample-prompts)
+    - [Starter templates](#starter-templates)
+    - [Text to Image](#text-to-image)
+    - [Misc](#misc)
+      - [Get better responses from chatGPT](#get-better-responses-from-chatgpt)
+      - [Customize ChatGPT with unique style guide](#customize-chatgpt-with-unique-style-guide)
   - [Ethics and Safety](#ethics-and-safety)
     - [All Tech Is Human](#all-tech-is-human)
     - [OWASP](#owasp)
+    - [Frontier Model Forum](#frontier-model-forum)
+    - [AI Detecting tools](#ai-detecting-tools)
   - [Licenses](#licenses)
     - [Midjourney](#midjourney)
     - [ChatGPT](#chatgpt)
   - [Chat](#chat)
     - [Auto-GPT](#auto-gpt)
+    - [POE](#poe)
   - [Text To Image Tools](#text-to-image-tools)
     - [Midjourney](#midjourney-1)
     - [Stable Diffusion](#stable-diffusion)
     - [Firefly](#firefly)
   - [Misc](#misc-1)
-    - [Prime Voice AI](#prime-voice-ai)
+    - [HT2.0](#ht20)
     - [NVidia Broadcast](#nvidia-broadcast)
+    - [Prime Voice AI](#prime-voice-ai)
   - [Resources](#resources)
     - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
       - [Steps to first API call](#steps-to-first-api-call)
@@ -50,9 +59,32 @@ Your Guide to Communicating with Artificial Intelligence
 Learn how to use ChatGPT and other AI tools to accomplish your goals using our free and open source curriculum, designed for all skill levels!
 ```
 
-### Sample Prompts
+## Large Language Model (LLM) Concepts
 
-#### Starter templates
+### Introduction To Generative AI Learning Path
+
+[https://www.cloudskillsboost.google/journeys/118](https://www.cloudskillsboost.google/journeys/118)
+
+From Google Cloud:
+
+```text
+This learning path provides an overview of generative AI concepts, from the fundamentals of large language models to responsible AI principles.
+```
+
+### LangChain for LLM Application Development
+
+[https://learn.deeplearning.ai/langchain](https://learn.deeplearning.ai/langchain)
+
+```text
+By prompting an LLM or large language model, it is now possible to develop AI applications much faster than ever before. 
+But an application can require prompting an LLM multiple times and parsing its output, and so there's a lot of glue code that needs to be written. 
+LangChain, created by Harrison Chase makes this development process much easier. I'm thrilled to have Harrison here, who 
+had built this short course in collaboration with DeepLearning.ai to teach how to use this amazing tool.
+```
+
+## Sample Prompts
+
+### Starter templates
 
 - Generate a script for a 30-second commercial promoting <subject>
 - Create a list of potential blog post ideas about <subject>
@@ -63,7 +95,7 @@ Learn how to use ChatGPT and other AI tools to accomplish your goals using our f
 - I want you to act as a travel guide. I will write you my destination and you will suggest a location to visit near my  destination. In also give you the type of locations I want you to suggest. You will also suggest me places of similar type that are close to my first destination. My first request is “I am in Kyoto and I want to visit only museums.”
 - I want you to act as a personal cook and create a healthy meal plan for the week
 
-#### Text to Image
+### Text to Image
 
 - A realistic image of a adult male working on a computer as a yellow labrador retreiver sleeps at his feet
 - An illustration of a large red elephant sitting on a small blue mouse.
@@ -79,7 +111,36 @@ Learn how to use ChatGPT and other AI tools to accomplish your goals using our f
 - A sign that says 'Text to Image'.
 - New York Skyline with 'Deep Learning' written with fireworks on the sky.
 
-#### Misc
+### Misc
+
+#### Get better responses from chatGPT
+
+The next time ChatGPT serves up a less-than-stellar answer, provide some feedback and then toss in this prompt:
+> "Explain this feedback back to me and how you will adjust future responses given the feedback."
+
+
+#### Customize ChatGPT with unique style guide
+
+Setup ChatGPT to respond in a way that matches your writing style/voice.
+
+First: write your brand’s style guide (use the: [Zapier Style Guide ](https://zapier.com/blog/style-guide) tutorial).
+
+Must haves:
+* Company’s values and missions.
+* Brand’s voice and tone.
+* Who you're speaking to.
+* Must-follow grammar rules.
+* 10+ examples of great content (for each content category).
+
+Second: upload your style guide to ChatGPT custom instructions:
+
+1. Go to ChatGPT,
+1. Custom instructions
+   * Answer box #1 with everything brand-related
+   * Answer box #2 with everything writing-related.
+1. Toggle on “Enable for new chats”.
+1. Save it all up.
+1. You can now instruct ChatGPT to write something fresh or feed it a content draft to finesse in your voice.
 
 ## Ethics and Safety
 
@@ -99,6 +160,22 @@ All Tech Is Human brings together people, organizations, and ideas to tackle wic
 The OWASP Top 10 for Large Language Model Applications project aims to educate developers, designers, architects, managers, and organizations about the potential security risks when deploying and managing Large Language Models (LLMs). The project provides a list of the top 10 most critical vulnerabilities often seen in LLM applications, highlighting their potential impact, ease of exploitation, and prevalence in real-world applications. Examples of vulnerabilities include prompt injections, data leakage, inadequate sandboxing, and unauthorized code execution, among others. The goal is to raise awareness of these vulnerabilities, suggest remediation strategies, and ultimately improve the security posture of LLM applications.
 ```
 
+### Frontier Model Forum 
+
+[https://openai.com/blog/frontier-model](https://openai.com/blog/frontier-model)
+
+```text
+We’re forming a new industry body to promote the safe and responsible development of frontier AI systems: advancing AI safety research, identifying best practices and standards, and facilitating information sharing among policymakers and industry
+```
+
+### AI Detecting tools
+
+Important note: *these tools generally don't work very well, and can't be relied on.*
+ 
+To detect if an image was created by AI: [https://huggingface.co/spaces/umm-maybe/AI-image-detector](https://huggingface.co/spaces/umm-maybe/AI-image-detector)
+
+To detect if text was written by AI: [https://gptzero.me/](https://gptzero.me/)
+
 ## Licenses
 
 ### Midjourney
@@ -113,7 +190,6 @@ Subject to the above license, You own all Assets You create with the Services, p
 
 ### ChatGPT
 
-
 ## Chat 
 
 ### Auto-GPT
@@ -124,6 +200,16 @@ Automatically generates prompts for ChatGPT so workflows can be autonomous.
 
 ```text
 The official website for Auto-GPT. Explore the new frontier of autonomous AI and try the fastest growing open source project in the history of GitHub for yourself.
+```
+
+### POE
+
+[https://poe.com/](https://poe.com/)
+
+Created by Quora, and this is supposed to be a "universal chatbot".
+
+```text
+Poe lets you ask questions, get instant answers, and have back-and-forth conversations with AI. Gives access to GPT-4, gpt-3.5-turbo, Claude from Anthropic, and a variety of other bots. Poe includes both free and subscription bots.
 ```
 
 ## Text To Image Tools
@@ -160,12 +246,12 @@ Requires Adobe Creative Cloud subscription, and signup for beta access.
 
 ## Misc
 
-### Prime Voice AI
+### HT2.0
 
-[https://beta.elevenlabs.io/](https://beta.elevenlabs.io/)
+[https://play.ht/](https://play.ht/)
 
 ```text
-The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
+Create ultra realistic Text to Speech (TTS) using PlayHT’s AI Voice Generator. Our Voice AI instantly converts text in to natural sounding humanlike voice performances across any language and accent.
 ```
 
 ### NVidia Broadcast
@@ -179,6 +265,14 @@ The NVIDIA Broadcast app transforms any room into a home studio. Take your lives
 Requires RTX Video card. Check card (Windows):
 
 `Open Windows System Information |. Expand category “Components” | Select on “Display” and check  “Name”`
+
+### Prime Voice AI
+
+[https://beta.elevenlabs.io/](https://beta.elevenlabs.io/)
+
+```text
+The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
+```
 
 ## Resources
 
