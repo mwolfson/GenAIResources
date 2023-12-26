@@ -9,11 +9,16 @@
     - [LangChain for LLM Application Development](#langchain-for-llm-application-development)
   - [Sample Prompts](#sample-prompts)
     - [Starter templates](#starter-templates)
+    - [Job Search related](#job-search-related)
+    - [Startup Related](#startup-related)
+        - [Forbes Scale Business Prompts](#forbes-scale-business-prompts)
+    - [Writing](#writing)
     - [Caveats](#caveats)
       - [Get better responses from chatGPT](#get-better-responses-from-chatgpt)
     - [Text to Image](#text-to-image)
       - [Dall-E Starter Prompt](#dall-e-starter-prompt)
-      - [Customize ChatGPT with unique style guide](#customize-chatgpt-with-unique-style-guide)
+    - [Ensure AI doesn’t slip you false info:](#ensure-ai-doesnt-slip-you-false-info)
+    - [Customize ChatGPT with unique style guide](#customize-chatgpt-with-unique-style-guide)
   - [Ethics and Safety](#ethics-and-safety)
     - [All Tech Is Human](#all-tech-is-human)
     - [OWASP](#owasp)
@@ -30,9 +35,11 @@
     - [Stable Diffusion](#stable-diffusion)
     - [Firefly](#firefly)
   - [Misc](#misc)
+    - [Emoji Maker](#emoji-maker)
     - [HT2.0](#ht20)
     - [NVidia Broadcast](#nvidia-broadcast)
     - [Prime Voice AI](#prime-voice-ai)
+    - [Final Round Interview Coach](#final-round-interview-coach)
   - [Resources](#resources)
     - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
       - [Steps to first API call](#steps-to-first-api-call)
@@ -95,23 +102,67 @@ had built this short course in collaboration with DeepLearning.ai to teach how t
 - Write a poem about suffering and pain, using metaphors and imagery to evoke strong emotion
 - **Travel** - I want you to act as a travel guide. I will write you my destination and you will suggest a location to visit near my  destination. In also give you the type of locations I want you to suggest. You will also suggest me places of similar type that are close to my first destination. My first request is “I am in Kyoto and I want to visit only museums.”
 - I want you to act as a personal cook and create a healthy meal plan for the week
-- **Make GPT write like me**
+
+
+- **AI Gig worker instructions**
 ```
-Objective: My company is named [brand name]. Your task is to learn everything there is to learn about [brand name]’s distinctive writing style so that you can emulate it. To guide you, I'll give you samples of our previous writings. When analyzing these samples, focus on:
-- Voice and Tone: Is the language formal or casual?
-- Mood: What emotions are conveyed?
-- Sentence Structure: Are the sentences mostly simple, compound, or complex?
-- Transitions: Observe how sentences flow and connect with each other.
-- Unique Style: Look for recurring phrases and grammartical patterns.
-Here are some of the company’s writing samples:
-[paste example 1 here]
-[paste example 2 here]
-[paste example 3 here]
-Task instructions: Use the style cues from the samples to generate new content in the writing style of [brand name]. Do your best to emulate our voice, tone, mood, sentence structure, transitions, rhythm, pacing, and signatures. Below is some context and an outline to guide your writing:
-///
-[paste context on writing task here]
-///
+You are a very helpful AI gig worker, who is eager to take on any task. You know we can only communicate through a chat interface, and you want to make sure you do the jobs you are asked quickly and well. You will ask me what work I need done. 
+
+When I give you something to do, you will convert that to a step by step plan and tell me what the step by step plan is. If you have questions you will tell me the questions and the default assumptions you will use to answer the questions if I do not provide more information. You will also ask for any example of good work I might want to share. You will pause and wait for confirmation or elaboration or examples. Then you will produce the required work.
 ```
+
+- **Summarize Legal Jargon**
+
+```
+You are a world-class attorney with incredible attention to detail and a knack for explaining complex concepts simply.
+When presented with an agreement, your first task is to dissect it into its constituent sections. This step is crucial to ensure no part of the agreement is overlooked.
+Next, you'll provide a summary for each section. You'll do this twice: first, in legal jargon for fellow attorneys to comprehend, and second, in layman's terms using analogies and everyday language so non-lawyers can understand. Don't just explain the relevance of each section — explain specifics and implications simply.
+Lastly, you'll compile a comprehensive report that gives the user a complete understanding of the agreement. In your report, be sure to leave no stone unturned, but make sure to do so in a way the non-lawyer user will understand.
+Follow this format to structure your work:
+~
+## Sections
+1. $section_1_title
+2. $section_2_title
+...and so on
+## Section Summaries
+### 1. $section_1_title
+   * **Legal Summary:** $section_1_legal_summary
+   * **Layman's Summary:** $section_1_understandable_summary
+### 2. $section_2_title
+   * **Legal Summary:** $section_2_legal_summary
+   * **Layman's Summary:** $section_2_understandable_summary
+...continue this pattern until all sections are covered
+## Report
+$report
+~
+```
+
+### Job Search related
+
+- **Creating relevant resume content**
+```
+"Provide resume bullet points that showcase metrics and impact for a role as a <INSERT ROLE>.”
+```
+
+- **Customized Resume**
+Once you’ve given it context, and copy and pasted the job description, ask ChatGPT:
+
+```
+“What are the main skills and experiences they are looking for that I should highlight on my resume?”
+```
+
+- **Market Research**
+```
+“I have an interview for <ROLE> at Company ABC. What are the most common interview questions for <ROLE> and what are some sample answers I can share?”
+```
+
+- **Help get answers to common questions**
+```
+“I have five years of experience in project management, led an X number of people, used X software that increased our productivity by X%. How do I best answer ‘Tell me about yourself?’ for a project management role I’m applying for?”
+```
+
+### Startup Related
+
 - **Startup Advice**: From Matt Shumer(@mattshumer_) - Here's a GPT-4 prompt for startup founders, designed to emulate the advice of: @paulg, @peterthiel, and @pmarca
 ```
 You offer excellent and thorough expert advice to startup founders.
@@ -147,14 +198,74 @@ $give_advice_here
 Remember to write the answers the experts have provided verbatim, in their own words. Their opinions will be **extremely relevant** to the user's problem. Use quotes to denote what they have said.
 ///
 ```
-- **AI Gig worker instructions**
-```
-You are a very helpful AI gig worker, who is eager to take on any task. You know we can only communicate through a chat interface, and you want to make sure you do the jobs you are asked quickly and well. You will ask me what work I need done. 
 
-When I give you something to do, you will convert that to a step by step plan and tell me what the step by step plan is. If you have questions you will tell me the questions and the default assumptions you will use to answer the questions if I do not provide more information. You will also ask for any example of good work I might want to share. You will pause and wait for confirmation or elaboration or examples. Then you will produce the required work.
+##### Forbes Scale Business Prompts
+
+> Use these prompts to understand how to scale your business and get your plan of action. Copy, paste and edit the square brackets in ChatGPT, and keep the same chat window open so the context carries through.
+
+Original Article [Here](https://www.forbes.com/sites/jodiecook/2023/11/14/how-to-scale-your-business-5-chatgpt-prompts-for-exceptional-growth/?sh=530ae5067998)
+
+- **Identify Blockers**
+```python
+"I am experiencing some challenges that are hindering my business's growth and my personal development. These include [describe specific personal challenges] in my personal life, and [detail specific business obstacles] in my business. I'm looking for insights into the barriers that might be preventing me from reaching my full potential both personally and professionally. Consider old habits, unhelpful thought patterns or limiting beliefs I might hold. Suggest 5 blockers that might be present."
+```
+
+- **Remove bottlenecks**
+
+```python
+"From the list of blockers we previously identified, I believe the most accurate ones impacting me are [comment on which identified blockers sound accurate]. Based on these, can you help me develop a comprehensive plan to break free from these bottlenecks? The plan should consider options like elimination of nonessentials, automation of tasks, implementation of new processes, or mental strategies for more productive thinking. I'm looking for actionable steps and innovative approaches to effectively remove these obstacles and enhance my personal and business efficiency."
+```
+
+- **Partnerships**
+  
+```python
+"Using your knowledge of my business model, its offering and position within the industry of [add any further details if required], act as a business strategy consultant. I'm looking for ideas on the types of businesses or individuals I could strategically partner with to unlock new growth potential and mutual benefits. Who should I approach for partnerships? What unique value or opportunities could these partnerships bring to both parties? I'm aiming to leave this conversation with a clear understanding of potential partners and a strategy for approaching them effectively."
+```
+
+- **Funnel**
+
+```python
+"I want to improve my sales funnel and need help identifying where to focus my efforts. For each part of my funnel - top, middle, and bottom - I'll describe what I currently do and how well I think it performs. Top of the funnel: [describe activities and perceived performance], middle of the funnel: [describe activities and perceived performance], and bottom of the funnel: [describe activities and perceived performance]. Based on this information, which part of the funnel appears to be the weakest, and what specific improvements or strategies would you suggest? Let's have a back and forth discussion about how I can enhance the effectiveness of this stage to improve overall conversion rates, where you ask me questions that I answer."
+```
+
+### Writing
+
+- **ChatGPT as Editor** 
+```
+"I'm working on an article/essay about [topic]. The main points I want to get across are:
+- [Key point 1]
+- [Key point 2]
+- [Key point 2]
+Please read the attached draft and provide constructive feedback to help improve my writing. Focus your comments on:
+- How well my main points come across.
+- Areas that need better explanation or evidence.
+- Suggestions for improving the flow and organization.
+- Any passages that are confusing or include errors.
+- Ways I could make the writing more engaging for readers.
+Provide feedback in list format as if you were an editor or writing tutor. Be specific and aim your comments at helping me strengthen the draft. Do not simply edit or rewrite it directly."
+```
+  
+- **Make GPT write like me**
+```
+Objective: My company is named [brand name]. Your task is to learn everything there is to learn about [brand name]’s distinctive writing style so that you can emulate it. To guide you, I'll give you samples of our previous writings. When analyzing these samples, focus on:
+- Voice and Tone: Is the language formal or casual?
+- Mood: What emotions are conveyed?
+- Sentence Structure: Are the sentences mostly simple, compound, or complex?
+- Transitions: Observe how sentences flow and connect with each other.
+- Unique Style: Look for recurring phrases and grammartical patterns.
+Here are some of the company’s writing samples:
+[paste example 1 here]
+[paste example 2 here]
+[paste example 3 here]
+Task instructions: Use the style cues from the samples to generate new content in the writing style of [brand name]. Do your best to emulate our voice, tone, mood, sentence structure, transitions, rhythm, pacing, and signatures. Below is some context and an outline to guide your writing:
+///
+[paste context on writing task here]
+///
 ```
 
 ### Caveats
+
+Helpful prompts to help steer the AI towards the results you desire.
 
 - I don't need caveats about safety or complexity of the topic, warnings that I should consult an expert, or other disclaimers. Please just answer the question as directly as possible.
 - If you don't know the answer to something, say you don't know. Do not make something up.
@@ -188,7 +299,6 @@ The next time ChatGPT serves up a less-than-stellar answer, provide some feedbac
 - New York Skyline with 'Deep Learning' written with fireworks on the sky.
 
 #### Dall-E Starter Prompt
-
 ```
 You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture.
 Knowledge cutoff: 2022-01
@@ -228,7 +338,14 @@ seeds?: number[],
 // namespace dalle
 ```
 
-#### Customize ChatGPT with unique style guide
+### Ensure AI doesn’t slip you false info:
+Put into custom instructions/prompts: 
+* do not respond if you are unsure of the answer.
+* Ask yes/no questions when possible to limit responses.
+* Instruct your AI to reference sources when necessary.
+* Direct your AI to ask follow-up questions if it does not understand a task.
+
+### Customize ChatGPT with unique style guide
 
 Setup ChatGPT to respond in a way that matches your writing style/voice.
 
@@ -355,6 +472,12 @@ Requires Adobe Creative Cloud subscription, and signup for beta access.
 
 ## Misc
 
+### Emoji Maker
+
+[emojis.sh](http://emojis.sh)
+AI Emoji Generator
+Turn your ideas into emojis in seconds. Generate your favorite Slack emojis with just one click.
+
 ### HT2.0
 
 [https://play.ht/](https://play.ht/)
@@ -381,6 +504,14 @@ Requires RTX Video card. Check card (Windows):
 
 ```text
 The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
+```
+
+### Final Round Interview Coach
+
+[FinalRound AI](https://www.finalroundai.com/)
+
+```
+Final Round AI is the first and only AI copilot for interviewees. It works like a magical teleprompter in real-time and helps you unlock interview God Mode
 ```
 
 ## Resources
