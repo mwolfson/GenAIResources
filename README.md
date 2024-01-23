@@ -8,6 +8,7 @@
     - [Introduction To Generative AI Learning Path](#introduction-to-generative-ai-learning-path)
     - [LangChain for LLM Application Development](#langchain-for-llm-application-development)
   - [Sample Prompts](#sample-prompts)
+    - [Prompt Guides](#prompt-guides)
     - [Starter templates](#starter-templates)
     - [Job Search related](#job-search-related)
     - [Startup Related](#startup-related)
@@ -91,6 +92,10 @@ had built this short course in collaboration with DeepLearning.ai to teach how t
 ```
 
 ## Sample Prompts
+
+### Prompt Guides
+
+[Learn Prompt Engineering - Prompt Guide](https://learnprompting.org/docs/intro)
 
 ### Starter templates
 
@@ -401,6 +406,8 @@ Important note: *these tools generally don't work very well, and can't be relied
 To detect if an image was created by AI: [https://huggingface.co/spaces/umm-maybe/AI-image-detector](https://huggingface.co/spaces/umm-maybe/AI-image-detector)
 
 To detect if text was written by AI: [https://gptzero.me/](https://gptzero.me/)
+
+[AIorNOT.com](http://www.aiornot.com) seems to work very well!
 
 ## Licenses
 
