@@ -16,6 +16,7 @@
     - [Writing](#writing)
     - [Caveats](#caveats)
       - [Get better responses from chatGPT](#get-better-responses-from-chatgpt)
+      - [Words To Exclude](#words-to-exclude)
     - [Text to Image](#text-to-image)
       - [Dall-E Starter Prompt](#dall-e-starter-prompt)
     - [Ensure AI doesn’t slip you false info:](#ensure-ai-doesnt-slip-you-false-info)
@@ -35,12 +36,17 @@
     - [Midjourney](#midjourney-1)
     - [Stable Diffusion](#stable-diffusion)
     - [Firefly](#firefly)
+    - [Stylar.AI](#stylarai)
   - [Misc](#misc)
     - [Emoji Maker](#emoji-maker)
+    - [Fluently](#fluently)
     - [HT2.0](#ht20)
     - [NVidia Broadcast](#nvidia-broadcast)
     - [Prime Voice AI](#prime-voice-ai)
-    - [Final Round Interview Coach](#final-round-interview-coach)
+    - [Job Related](#job-related)
+      - [Final Round Interview Coach](#final-round-interview-coach)
+      - [Interview With AI](#interview-with-ai)
+      - [Canyon](#canyon)
   - [Resources](#resources)
     - [Steps to Install Open AI Tools using Jupyter Labs](#steps-to-install-open-ai-tools-using-jupyter-labs)
       - [Steps to first API call](#steps-to-first-api-call)
@@ -287,6 +293,127 @@ Helpful prompts to help steer the AI towards the results you desire.
 The next time ChatGPT serves up a less-than-stellar answer, provide some feedback and then toss in this prompt:
 > "Explain this feedback back to me and how you will adjust future responses given the feedback."
 
+#### Words To Exclude
+
+Copy And Paste the Below List
+After you write your prompt, ask ChatGPT to exclude the following words from its output:
+
+```
+Buckle up
+Delve
+Dive
+Elevate
+Embark
+Embrace
+Explore
+Discover
+Demystified
+Unleash
+Unlocked
+Unveiled
+Beacon
+Bombastic
+Competitive digital world
+Debunking
+Nestled
+Picture this
+Plethora
+Realm
+Top-notch
+Treasure box
+Treasure trove
+Whimsical
+Firstly
+Moreover
+Furthermore
+However
+Therefore
+Additionally
+Specifically
+Generally
+Consequently
+Importantly
+Similarly
+Nonetheless
+As a result
+Indeed
+Thus
+Alternatively
+Notably
+As well as
+Despite
+Essentially
+While
+Unless
+Also
+Even though
+Because
+In contrast
+Although
+In order to
+Due to
+Even if
+Given that
+Arguably
+To consider
+Ensure
+Vibrant
+Bustling
+Essential
+Vital
+Out of the box
+Underscores
+Landscape
+Tapestry
+Soul
+Crucible
+It depends on
+That being said
+You may want to
+It’s important to note
+This is not an exhaustive list
+You could consider
+In summary
+On the other hand
+As previously mentioned
+It’s worth noting that
+In conclusion
+To summarize
+Ultimately
+To put it simply
+Pesky
+Promptly
+Dive into
+In today’s digital era
+Reverberate
+Enhance
+Emphasize
+Enable
+Hustle and bustle
+Revolutionize
+Folks
+Foster
+Fostering
+Sure
+Labyrinthine
+Moist
+Remnant
+As a professional
+Subsequently
+Game changer
+Symphony
+Labyrinth
+Gossamer
+Enigma
+Whispering
+Sights unseen
+Sounds unheard
+A testament to…
+Dance
+Metamorphosis
+Indelible
+```
+
 ### Text to Image
 
 - A realistic image of a adult male working on a computer as a yellow labrador retreiver sleeps at his feet
@@ -409,6 +536,12 @@ To detect if text was written by AI: [https://gptzero.me/](https://gptzero.me/)
 
 [AIorNOT.com](http://www.aiornot.com) seems to work very well!
 
+[Nuanced](https://www.nuanced.dev/)
+
+```
+We detect AI-generated images to protect the integrity and authenticity of your service. 
+```
+
 ## Licenses
 
 ### Midjourney
@@ -477,6 +610,14 @@ Firefly is Adobe’s new generative AI service. As part of Creative Cloud, Firef
 
 Requires Adobe Creative Cloud subscription, and signup for beta access.
 
+### Stylar.AI
+
+[Stylar.AI](https://www.stylar.ai/?utm_source=theneuron)
+
+```
+Transform design with Stylar: the most controllable AI design tool. Enjoy image generation and editing on our all-in-one online free platform.
+```
+
 ## Misc
 
 ### Emoji Maker
@@ -484,6 +625,14 @@ Requires Adobe Creative Cloud subscription, and signup for beta access.
 [emojis.sh](http://emojis.sh)
 AI Emoji Generator
 Turn your ideas into emojis in seconds. Generate your favorite Slack emojis with just one click.
+
+### Fluently
+
+[Fluently.ai](https://getfluently.app/)
+
+```
+Fluently is a personal speaking coach that delivers instant feedback on your day-to-day calls to refine your accent, improve grammar, and expand your vocabulary. 
+```
 
 ### HT2.0
 
@@ -513,12 +662,30 @@ Requires RTX Video card. Check card (Windows):
 The most realistic Text to Speech and Voice Cloning software. ElevenLabs brings the most compelling, rich and lifelike voices to creators and publishers seeking the ultimate tools for storytelling.
 ```
 
-### Final Round Interview Coach
+### Job Related
+
+#### Final Round Interview Coach
 
 [FinalRound AI](https://www.finalroundai.com/)
 
 ```
 Final Round AI is the first and only AI copilot for interviewees. It works like a magical teleprompter in real-time and helps you unlock interview God Mode
+```
+
+#### Interview With AI
+
+[InterviewWith.ai](https://interviewwith.ai/)
+
+```
+Interview with AI is a tool that helps you to get your dream job. Create your personalized roadmap, test yourself with quizzes, and practice with AI.
+```
+
+#### Canyon
+
+[Canyon](https://www.usecanyon.com/?utm_source=www.theneurondaily.com&utm_medium=newsletter&utm_campaign=poe-s-multi-bot-chat)
+
+```
+Canyon provides a comprehensive set of tools built to help you with your job search. Build your resume, apply and track job applications, and prepare for interviews, all with the help of Canyon AI.
 ```
 
 ## Resources
