@@ -1,4 +1,4 @@
-The Ultimate CRAFT Framework Cheat Sheet
+The Ultimate CRAFT Framework Cheat Sheet - from [LinkedIn learning course by Allie K. Miller](https://www.linkedin.com/learning/how-to-use-generative-ai-building-an-ai-first-mindset)
 
 The following is a list of the prompts used in this chapter. You can copy and paste the prompts into your own AI tools to try the activities, or modify each with your own specific details.
 
